@@ -23,4 +23,7 @@ var RegisterStudentRoutes = func(routes *mux.Router) {
 
 	// API for enroll
 	routes.HandleFunc("/enroll/", controllers.CreateEnroll).Methods("POST")
+
+
+	// Task: Create API for get information about student_table data.
 }
